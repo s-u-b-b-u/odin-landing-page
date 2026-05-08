@@ -156,3 +156,44 @@ a {
   font-weight: 700;
   align-self: flex-end;
 }
+
+.action-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-data-container {
+  width: 900px;
+  padding: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tagline {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.message {
+  color: #f9faf8;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.action-data-container button {
+  color: #f9faf8;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3882f6;
+  border: 3px solid #f9faf8;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right:25px;
+}
+
