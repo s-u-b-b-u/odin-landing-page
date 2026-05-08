@@ -127,3 +127,32 @@ a {
   flex-wrap: wrap;
 }
 
+
+
+.quote-container {
+  height: 500px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.quote-data-container {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  gap: 5px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.author {
+  font-size: 34px;
+  font-weight: 700;
+  align-self: flex-end;
+}
