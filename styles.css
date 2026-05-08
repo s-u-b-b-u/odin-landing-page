@@ -81,10 +81,12 @@ a {
 }
 
 .hero-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(128, 128, 128);
   width: 500px;
   height: 250px;
-  text-align: center;
 }
 
 /*Information-section styles*/
